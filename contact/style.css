@@ -1,0 +1,19 @@
+@media screen and (min-width : 992px){
+    .position-lg-fixed{
+        position: fixed;
+    }
+}
+.container-list{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius:17px;
+    background: #fff;
+    padding: 10px 0;
+}
+.list-item{
+    display: flex;
+    padding: 10px 15px;
+}
+.list-item:hover{
+    background: rgb(240, 240, 240);
+}

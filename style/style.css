@@ -1,0 +1,177 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: "vazir";
+    src: url(../fonts/Vazir.ttf);
+}
+body{
+    font-family: 'vazir' , sans-serif;
+    font-size: 1rem;
+}
+.lalezar{
+    font-family: 'lalezar'
+}
+@media screen and (min-width : 992px){
+    .position-lg-fixed{
+        position: fixed;
+    }
+}
+.container-list{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius:17px;
+    background: #fff;
+    padding: 10px 0;
+}
+.list-item{
+    display: flex;
+    padding: 10px 15px;
+}
+.list-item:hover{
+    background: rgb(240, 240, 240);
+}
+/* header */
+.header{
+    background: url(../img/header/header-bg.png) top center no-repeat;
+    background-size: cover;
+}
+/* shop */
+.sh-box{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 10px;
+}
+.shop-sh{
+    transition: all 0.5s;
+}
+.shop-sh:hover{
+    transform: scale(1.03);
+}
+/* service */
+.service-box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom: 4px solid;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.service-box .link-service {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.service-box.border-primary:hover{
+    background:#0d6efd ;
+}
+.service-box.border-success:hover{
+    background: #198754;
+}
+.service-box.border-warning:hover{
+    background: #ffc107;
+}
+.service-box:hover{
+    color: white;
+}
+.service-box:hover .link-service{
+    color: white !important; 
+}
+/**/
+.pici{
+    transition: all 0.5s;
+}
+.pici:hover{
+    transform: scale(1.05);
+}
+/* footer */
+footer{
+    background: #f2f5fc;
+}
+.row .ico-L{
+    color: #007AAF;
+}
+.row .ico-L:hover{
+    color: rgb(6, 98, 173);
+}
+.row .ico-F{
+    color: #365897;
+}
+.row .ico-F:hover{
+    color: #364897;
+}
+.row .ico-T{
+    color: #0396DD;
+}
+.row .ico-T:hover{
+    color: #037bdd;
+}
+.row .ico-Y{
+    color: #ff1616;
+}
+.row .ico-Y:hover{
+    color: #ff0000;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li a{
+    font-size: 17px;
+}
+/* container-form */
+.container-form{
+    width: 340px;
+    border: 1px solid #ddd;
+    border-radius:17px;
+    background: #fff;
+    padding: 10px 0;
+}
+.img-form{
+    width: 85px;
+    height: 85px;
+}
+/* header form */
+header .form-web{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0084f0;
+}
+.form-web{
+    border: none;
+    padding: 12px 40px;
+    background-color: #0026ff;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+.form-web::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -5px;
+    left: -5px;
+    border-top: 2px solid #0026ff;
+    border-left: 2px solid #0026ff;
+    transition: all 0.2s;
+}
+.form-web::after{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom:-5px;
+    right: -5px;
+    border-bottom: 2px solid #0026ff;
+    border-right: 2px solid #0026ff;
+    transition: all 0.2s;
+}
+.form-web:hover::before , .form-web:hover::after{
+    width: 100%;
+    height: 100%;
+}
