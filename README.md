@@ -2,4 +2,20 @@
 
 ## [demo](https://vahidkarimidev.github.io/iqCode/)
 
-## vahid karimi
+
+
+ - front end
+    - HTML
+    - CSS
+    - Botstrap
+    - JS
+
+
+
+
+
+
+
+
+
+
